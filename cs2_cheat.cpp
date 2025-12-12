@@ -26,7 +26,7 @@ namespace config {
     bool triggerbotEnabled = true;
     bool espEnabled = true;
     bool smokeFlashRemoverEnabled = true;
-    float aimbotFov = 30.0f; // Degrees
+    float aimbotFov = 120.0f; // Degrees
     float aimbotSmoothness = 0.2f; // 0.0 (instant) to 1.0 (very smooth)
 }
 
@@ -219,7 +219,7 @@ DWORD WINAPI CheatMain(LPVOID lpParam) {
         Triggerbot();
         ESP();
         SmokeFlashRemover();
-        Sleep(10); // Avoid high CPU usage
+        Sleep(7); // Avoid high CPU usage
     }
 
     // Cleanup
