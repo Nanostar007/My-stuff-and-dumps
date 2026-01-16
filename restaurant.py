@@ -90,7 +90,7 @@ def delete_reservation():
     print("Deleted.")
 
 def menu():
-    print("\n--- Restaurant CLI ---")
+    print("\n--- Lil caesars ---")
     print("1) Add table")
     print("2) New reservation")
     print("3) List reservations")
@@ -115,3 +115,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
